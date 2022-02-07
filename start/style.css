@@ -6,31 +6,16 @@
 body{
     height: 100%;
 }
-
-.head {
-    height: 200px;
-}
-
-.page-container {
-    height: 100vh;
-}
 .sidebar {
-    height: 100%;
-    width: 200px;
+    height: 100vh;
+    width: 15%;
     background-color: rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
-}
-.left-content {
-    height: 100%;
-    width: 200px;
 }
 
 .image {
-    margin-top: 27vh;
     width: 50px;
     height: 50px
 }
@@ -46,7 +31,7 @@ body{
     width: 100px;
     height: 100px;
     background-color: white;
-    border-radius: 100%;
+    border-radius: 50%;
     margin-top: 20px;
 }
 
@@ -72,6 +57,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
-    margin-top: 10vh;
+    gap: 2rem;
+    flex: 1;
+    justify-content: center;
 }
